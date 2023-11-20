@@ -13,11 +13,11 @@
 }
 
 .btn{
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     padding: 8px;
     background-color: #006ED3;
-    /* border-radius: 12px; */
+    border-radius: 12px;
 }
 
 .btn-row{
@@ -29,31 +29,77 @@
     flex-direction: column;
     /* justify-content: flex-end; */
     align-items: center;
+    padding-top: 180px; /*200px;*/
 }
 
 .btn-ellipse{
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     padding: 8px;
+    background-color: #006ED3;
+    /* background: url("./assets/ellipse.png") no-repeat center center;
+    position: relative;
+    background-size: cover; */
+}
+
+.ok-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; /* Adjust the text color as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+.row{
     background-color: #006ED3;
 }
 
-.row{
-    /* background-color: #006ED3; */
-}
+/* .btn-up{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+} */
+
+/* .btn-left{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+} */
 
 .btn-grid{
     display: flex;
-    flex-direction: column;
-    max-width: 270px;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 90px;
+    /* flex-direction: row;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 90px; */
 }
 
 .btn-grid-btn{
-    width: 24px;
-    height: 24px;
-    padding: 8px;
-    margin-right: 30px;
+    width: 48px;
+    height: 48px;
+    padding: 16px;
+    margin-right: 5px;
+}
+
+.btn-grid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 270px;
+    /* justify-content: center; */
+}
+
+.searchInput{
+    margin-top: 102px;
+    margin-left: 28px;
+    margin-right: 28px;
+    /* width: 374px;
+    height: 42px;
+    border: 1px solid #ffffff; */
 }
